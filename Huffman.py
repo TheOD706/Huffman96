@@ -12,8 +12,8 @@ import io
 from collections import deque
 class Huffman96(object):
     incomeAlphabet = None
-    alphabetLong = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_";
-    alphabetShort = "`abcdefghijklmnopqrstuvwxyz{|}~\t";
+    alphabetLong = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
+    alphabetShort = "`abcdefghijklmnopqrstuvwxyz{|}~\t"
 
     def __init__(self, iA):
         t0 = str(type(iA))
